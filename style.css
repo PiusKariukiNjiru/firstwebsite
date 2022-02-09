@@ -287,24 +287,48 @@ hr.dashed{
 
 }
 
+
+
+
 /*------footer----*/
 
-
-.footer{
-    
-    margin: auto;
-    text-align: center;
-    padding-top: 0%;
+.company-details{
+	overflow: hidden;
+	padding: 3em 0em;
+	background: #E3F0F7;
+	text-align: center;
+	margin-top: 5em;
 }
-    
-.footer p{
-   
-    text-align: center;
-    padding: 3px;
-    background-color: rgb(10, 6, 2);
-    color: white;
- 
-
+#footer #col1,
+#footer #col2,
+#footer #col3{
+	float: left;
+	width: 320px;
+	padding: 0px 40px 0px 40px;
+}
+#footer #icon{
+	display: block;
+	margin-bottom: 1em;
+	font-size: 3em;
+}
+.copyright
+{
+	overflow: hidden;
+	padding: 3em 0em;
+	border-top: 20px solid rgba(255, 255, 255, 0.08);
+	text-align: center;
+	background: #070807;
+}
+.copyright p
+{
+	letter-spacing: 1px;
+	font-size: 0.90em;
+	color: rgba(255, 255, 255, 0.6);
+}
+.copyright a
+{
+	text-decoration: none;
+	color: rgba(255, 255, 255, 0.8);
 }
 
 
@@ -392,42 +416,12 @@ input[type=text], select, textarea {
     background-color: #f2f2f2;
     padding: 20px;
   }
-  
 
 
 
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-  
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  <style>
   * {box-sizing: border-box;}
   body {font-family: Verdana, sans-serif;}
   .mySlides {display: none;}
@@ -497,7 +491,7 @@ input[type=text], select, textarea {
   @media (max-width: 700px) {
     .text {font-size: 11px}
   }
-  </style>
+  
 
 
 
